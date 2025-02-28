@@ -97,14 +97,17 @@ int nota1 = 5;
 int nota2 = 8;
 int nota3 = 6;
 int nota4 = 7;
-float media = 4;
+float media = 0;
   
  media =(nota1+nota2+nota3+nota4)/ 4.0;
     if (media>=7){
     Serial.println("APROVADO");
-    }else if (media<=7){
+      
+    }else if (media<=7 && media >= 5.0){
+    Serial.println("RECUPERACAO");
+      
+    }else 
     Serial.println("REPROVADO");
-    }
 }
 
   void loop ()
