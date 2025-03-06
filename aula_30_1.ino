@@ -1,6 +1,6 @@
 /* Maria Eduarda Silva
 06/03/2025
-ATIVIDADE:
+ATIVIDADE:Aula 30 exercico
 */
 #define pinLedVermelho 13
 #define pinLedLaranja 12
