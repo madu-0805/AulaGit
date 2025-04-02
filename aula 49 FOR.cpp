@@ -8,7 +8,7 @@ void setup()
   pinMode(pinBotao, INPUT_PULLUP);
   Serial.begin(9600);
 
-  /*for (int j = 0; j < 11; j++) // e um laco de repeticao
+  for (int j = 0; j < 11; j++) // e um laco de repeticao
   {
     for (int i = 0; i < 11; i++)
     {
@@ -20,14 +20,14 @@ void setup()
     }
     Serial.println("-------------------------");
   }
-*/
-   for (int tabuabda =0 ; tabuada <= 10; tabuada ++)
+
+  /** for (int tabuabda =0 ; tabuada <= 10; tabuada ++)
   {
      for ( int numero 0;  numero <=10;  numero++)
      {
-     Serial.printf("%d x %d=%d \n\r", tabuada, numero , numero , numero * tabuada);
+     Serial.printf("%d x %d=%d \r", tabuada, numero , numero , numero * tabuada);
      }
-  }
+  }*/
 
 }
 
