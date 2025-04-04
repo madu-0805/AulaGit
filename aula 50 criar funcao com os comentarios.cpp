@@ -42,7 +42,7 @@ void piscaLed(int pin, unsigned long tempo) // criacao de piscaLed
 {
   ligaLed(pin);    // ligar o led
   delay(tempo);    // Espera novamente pelo tempo especificado
-  desligaLed(pin); // desligar o lid
+  desligaLed(pin); // desligar o led
   delay(tempo);    // Espera novamente pelo tempo especificado
 }
 // Função para somar dois números
